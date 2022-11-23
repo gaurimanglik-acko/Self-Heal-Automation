@@ -83,7 +83,6 @@ public class homePage {
     //Select Date
     public static void dateSelector(WebDriver driver) throws InterruptedException {
         driver.findElement(By.xpath(selectors.clickDateTab)).click();
-        //driver.findElement(By.xpath("//div[@class='DayPicker-Month']//div[@aria-label='Mon Oct 10 2022']")).click();
         String month="January 2023";
         String date="13";
         try
@@ -97,11 +96,10 @@ public class homePage {
                     System.out.println("else part"+ element);
                     driver.findElement(By.xpath(selectors.arrowBtn)).click();
                 }
-
             }
             List<WebElement> elementList=driver.findElements(By.xpath(selectors.selectDate));
             for (WebElement element:elementList) {
-                String text =element.getText();
+                String text = element.getText();
                 String[] dateSplit = text.split("\n");
                 System.out.println(dateSplit[0]);
                 if (dateSplit[0].contentEquals(date))

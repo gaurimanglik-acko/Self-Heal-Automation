@@ -53,27 +53,27 @@ public void homePageTest()throws InterruptedException{
 //
 //@Test(priority = 0)
 //public void closingAds() throws InterruptedException {
-//    homePage.closeAds(driver);
+//    homePage1.closeAds(driver);
 //}
 //@Test(priority = 1)
 //public void ticketClass() throws InterruptedException {
-//    homePage.selectBusinessCls(driver);
+//    homePage1.selectBusinessCls(driver);
 //}
 //@Test(priority = 2)
 //public void testDeparture() throws InterruptedException {
-//    homePage.departureAirport(driver);
+//    homePage1.departureAirport(driver);
 //}
 //@Test(priority = 3)
 //public void testArrival() throws InterruptedException {
-//    homePage.arrivalAirports(driver);
+//    homePage1.arrivalAirports(driver);
 //}
 //@Test(priority = 4)
 //public void testDate() throws InterruptedException {
-//    homePage.dateSelector(driver);
+//    homePage1.dateSelector(driver);
 //}
 //@Test(priority = 5)
 //public void testSubmit(){
-//    homePage.submitBtn(driver);
+//    homePage1.submitBtn(driver);
 //}
 
     @Test(priority = 1)
